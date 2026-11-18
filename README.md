@@ -37,7 +37,15 @@ Windows 10 or 11, 64-bit. The .NET runtime is included. The installer isn't code
 - **Projects**: new mod projects from templates, referencing the game's assemblies, building into a clean `dist` folder.
 - **Editor**: C# with IntelliSense (Roslyn), go to definition into decompiled game code (ILSpy engine), rename, find references, quick fixes.
 - **Run**: build and start the game in a session, with the game log next to your code. Clean sessions leave your game folder as it was.
-- **Assets**: browse Unity assets and scenes for local analysis.
+- **Live**: inspect and change the running game, pick objects, watch values, C# console, hot reload and a debugger for Mono games.
+- **Assets**: browse the game's Unity assets and scenes for local analysis; ship your own assets and AssetBundles (with a Unity companion project) next to your mod.
+- **Mod tools**: config editor, metadata, translations, snippets, dependencies from GitHub/NuGet, tests inside the game, compatibility checks and a report after game updates.
+- **Release check**: verifies what you'd ship before you ship it.
+
+## Guides
+
+- [Getting started with BepInEx 5](docs/guides/bepinex.md)
+- [Getting started with MelonLoader (Mono and IL2CPP)](docs/guides/melonloader.md)
 
 ## Updates
 
